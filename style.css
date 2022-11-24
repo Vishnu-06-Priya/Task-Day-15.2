@@ -1,0 +1,51 @@
+.container {
+    margin: 0px auto;
+    padding-left: 30px;
+    padding-right: 0px;
+    max-width: 1300px;
+    background-image: url(https://thumbs.dreamstime.com/b/cooking-russian-dishes-okroshka-ingredients-beautiful-presentation-180162800.jpg);
+}
+
+body {
+    background-color: aqua;
+}
+
+p,
+h1 {
+    padding: 5px 0px 0px 0px;
+    color: rgb(9, 71, 73);
+}
+
+label {
+    font-weight: 400;
+    padding-top: 5px;
+    font-size: 22px;
+}
+
+#first-name,
+#last-name,
+#address,
+#pincode,
+#state,
+#country {
+    width: 300px;
+    border: 1px solid rgb(55, 125, 158);
+    font-size: 20px;
+}
+
+#submit {
+    width: 70px;
+    background-color: hsl(244, 81%, 42%);
+    align-items: center;
+    margin-top: 10px;
+    color: #eceaf5;
+}
+
+th {
+    background-color: #0c458f;
+    font-style: oblique;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+}
